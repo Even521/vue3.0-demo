@@ -86,6 +86,12 @@ const routes=[
         name:'LifeDemo',
         component:()=>import('../src/components/reactive/LifeDemo.vue'),
         meta:{title:'生命周期'}
+    },
+    {
+        path:'/http-request',
+        name:'HttpRequest',
+        component:()=>import('../src/components/axions/HttpRequest.vue'),
+        meta:{title:'http request'}
     }
 
 
