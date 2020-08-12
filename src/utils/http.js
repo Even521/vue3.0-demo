@@ -100,10 +100,9 @@ export const post = (url,data = {})=>{
     return new Promise((resolve,reject) => {
         axios.post(url,data)
             .then(response => {
-                 // response.data
                 return resolve(response.data);
             },err => {
-                // reject(err)
+                 reject(err)
             })
     })
 }

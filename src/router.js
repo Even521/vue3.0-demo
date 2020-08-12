@@ -92,6 +92,12 @@ const routes=[
         name:'HttpRequest',
         component:()=>import('../src/components/axions/HttpRequest.vue'),
         meta:{title:'http request'}
+    },
+    {
+        path:'/token',
+        name:'Login',
+        component:()=>import('../src/components/token/Login.vue'),
+        meta:{title:'用户登陆返回token保存'}
     }
 
 
